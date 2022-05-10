@@ -1,0 +1,7 @@
+Some objects are already created...
+cc -o edit main.o kbd.o command.o display.o \
+	insert.o search.o files.o utils.o
+/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+collect2: ld returned 1 exit status
+make: *** [Makefile:3: edit] Error 1
