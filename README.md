@@ -10,7 +10,10 @@
 Makefile
 
 // Result for a fresh compilation:
-Result1
+fullbuild.log
 
 // Result for re-compilation:
-Result2
+rebuild.log
+
+// Comments:
+All ".c" files are empty, thus target "edit" in the example Makefile will always give error and not be made.
